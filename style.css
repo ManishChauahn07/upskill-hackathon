@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+    background-color: #f5f5db;
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    height: 3rem;
+    width: 8rem;
+    margin-left: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.logo img{
+    height: 4rem;
+    width: 12rem;
+    margin-top: 0.1rem;
+}
+.nav .options ul {
+    display: flex;
+    margin-top: 23px;
+}
+.nav .options {
+    margin-left: 2rem;
+}
+a {
+    text-decoration: none;
+    font-weight: 530;
+    font-size: 18px;
+    color: black;
+}
+.nav .options li {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.mem{
+    margin-top: 18px;
+    margin-left:40vh;
+}
+.mem ul{
+    display: flex;
+}
+.mem ul li {
+    margin-left: 1rem; 
+    list-style: none;
+}
+
+.intro {
+    background-image: radial-gradient(
+        farthest-corner at 40px 40px,
+        rgba(247, 228, 231, 0.719) 0%,
+        rgb(255, 255, 255) 100%
+      );
+    display: flex;
+    height: 40rem;
+    width: 100%;
+    padding-left: 7rem;
+    padding-top: 5rem ;
+}
+.intro .grow{
+    width: 80vh;
+    padding-right: 5vh;
+}
+
+.intro .grow h1{
+    font-size: 50px;
+}
+
+.intro .grow p{
+    font-size: 20px;
+}
+.intro .xxx{
+    padding-left: 5vh;
+    height: 80vh;
+    width: 120vh;
+}
+.intro .xxx img{
+    height: 70vh;
+    width: 110vh;
+}
+
+.row {
+    margin-top: 5vh;
+    height: 27rem;
+    width: 100%;
+    display: flex;
+}
+.row .col{
+    height: 10rem;
+}
+.row .col img{
+    height: 3rem;
+    width: 5rem;
+}
+
+.payment{
+    height: 60vh;
+    padding-top: 5vh;
+}
+.payment h1{
+    margin-bottom: 3vh;
+}
+.payment a{
+    margin-top: 4vh;
+}
+.yyy{
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(54.5% 54.5% at 23.44% 101.59%, #0052cc 0, rgba(62, 28, 149, 0) 100%), radial-gradient(100% 100% at 10.43% 0, #aa31f5 0, rgba(62, 28, 149, 0) 100%), radial-gradient(91.69% 221.67% at 91.69% 11.54%, rgba(130, 31, 255, .4) 0, rgba(24, 27, 38, 0) 100%), #1d2939;
+    background-blend-mode: soft-light, normal, normal, normal, normal;
+    color: #fff;
+}
+.yyy .one{
+    padding-top: 12vh;
+    height: 15rem;
+    width: 30%;
+    color: white;
+} 
+
+ .result{
+    margin-top: 15vh;
+}
+.result h2{
+    font-weight: 530;
+}
+.cards{
+    display: flex;
+    height: 180vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.cards .card{
+    border-radius: 2vh;
+    height: 73vh;
+    width: 50vh;
+    box-shadow: 10px 5px 5px rgb(94, 93, 93);
+}
+.cards .card img{
+    height: 263px;
+    width: 49.7vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+.cards .card h3{
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.cards .card h6{
+    margin-top: 1vh;
+    margin-left: 2vh;
+} 
+
+ .quote{
+    height: 40vh;
+    width: 200vh;
+    background: radial-gradient(54.5% 54.5% at 23.44% 101.59%, #0052cc 0, rgba(62, 28, 149, 0) 100%), radial-gradient(100% 100% at 10.43% 0, #aa31f5 0, rgba(62, 28, 149, 0) 100%), radial-gradient(91.69% 221.67% at 91.69% 11.54%, rgba(130, 31, 255, .4) 0, rgba(24, 27, 38, 0) 100%), #1d2939;
+    background-blend-mode: soft-light, normal, normal, normal, normal;
+    border-radius: 10vh;
+    padding-top: 13vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    margin-left: 5vh;
+    color: white;
+
+} 
+
+ .motivation{
+    height: 35vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin-top: 15vh;
+}
+.motivation a{
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+.motivation h6{
+    margin-top: 3vh;
+}
+.faq{
+    height: 80vh;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+.faq .questions{
+    padding-top: 4vh;
+    height: 13vh;
+    border-top: 1.5px solid grey;
+}
+
+
+
+.footer {
+    background-color: rgba(26, 25, 25, 0.87);
+    height: 20rem;
+    display: flex;
+}
+.footer .foot{
+    display: flex;
+    width: 35rem;
+    height: 13rem;
+    padding-left: 7rem;
+    padding-top: 4rem;
+}
+.footer .foot .contact .call{
+    display: flex;
+    margin-top: 2rem;
+}
+.footer .foot .contact .call h3{
+    margin-left: 1rem;
+}
+.footer .foot .contact .call i{
+    margin-top: 1vh;
+    font-size: 25px;
+}
+.footer .foot .contact .mail{
+    display: flex;
+    margin-top: 2rem;
+}
+.footer .foot .contact .mail h3{
+    margin-left: 1rem;
+}
+.footer .foot .contact .mail i{
+    margin-top: 1vh;
+    font-size: 25px;
+}
+.footer .foot .sub{
+    height: 13rem;
+    margin-left: 20rem;
+}
+
+.footer .foot .sub .social{
+    margin-top: 1.5rem;
+}
+
+.footer .foot .sub .social a{
+    margin-left: 1rem;
+}
+.footer .foot .sub .social a i{
+    font-size: 23px;
+    color: white;
+}   
